@@ -1,0 +1,13 @@
+name: spellcrafting
+description: repository for magical crafts
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+      
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  very_good_analysis: ^5.1.0
