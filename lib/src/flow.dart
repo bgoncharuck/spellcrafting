@@ -18,3 +18,7 @@ class FlowBridge implements Flow {
 
   FlowBridge(this.from, this.to);
 }
+
+abstract class Action extends Nothing {
+  void act();
+}
