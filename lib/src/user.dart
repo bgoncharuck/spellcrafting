@@ -7,4 +7,6 @@ abstract class LivingBeing extends User {
   PhysicalLife get life;
 }
 
-abstract class ElementStream extends Nothing {}
+abstract class ElementStream extends Nothing {
+  Stream<dynamic> get stream;
+}
